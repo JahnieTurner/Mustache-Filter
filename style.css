@@ -1,0 +1,25 @@
+h2 {
+    font-size: 30px !important;
+}
+
+.btn-success:hover {
+    background-color: red;
+}
+
+canvas {
+    border-style: dashed;
+    border-width: 10px;
+    border-color: black;
+    animation-name: shadow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow {
+    from {
+        box-shadow: 1px 1px 40px brown;
+    }
+    to {
+        box-shadow: 1px 1px 40px pink
+    }
+}
